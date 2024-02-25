@@ -44,7 +44,7 @@ Homework requirements:
 5. Inside the "StudentController" class add a DELETE method for the "/student/{studentId}" endpoint.
    The method should delete the student with the "studentId" from the database, together with the associated entities (address, classes, etc.).
 6. Create a class called "CatalogController" and an entity called "Nota" to include the class, the grade, the student and the date the grade was given.
-   The "CatalogController" shoul implement endpoints for:
+   The "CatalogController" should implement endpoints for:
      a. adding a grade for a particular student and a particular class
      b. listing all grades for a particular student
      c. listing all grades for a particular student and a particular class
