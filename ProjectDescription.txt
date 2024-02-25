@@ -11,9 +11,9 @@ C20 HOMEWORK
 4. the app sets up corresponding entities with their corresponding relationships
 5. the app sets up repositories with custom query methods added
 6. the service layer is omitted for the sake of simplicity
-7. the app sets up controller with endpoints for accessing an modifying data
-8. the data enered is validated and a custom exception handler is included in the "CatalogController"
-9. the app implements a test for the "CatalogController" to test some of its method
+7. the app sets up controller with endpoints for accessing and modifying data
+8. the data entered is validated and a custom exception handler is included in the "CatalogController"
+9. the app implements a test for the "CatalogController" to test some of its methods
 
 Homework requirements:
 
@@ -21,7 +21,7 @@ Homework requirements:
     /profesor/{id} - GET method to return information about the teacher with the "id" ID.
     /profesor/materii/{id} - GET method to return information about the classes that the teacher with the "id" ID is teaching.
 2. Create a class called "StudentController" to serve as REST Controller for the "/student/enroll?studentId={studentId}&materieId={materieId}" endpoint.
-   A POST method for this endpoint will insert a correspponding entry in the "studenti_to_materii: table, to record that the sudent with the studentId ID is enrolled in the class with materieId.
+   A POST method for this endpoint will insert a corresponding entry in the "studenti_to_materii: table, to record that the student with the studentId ID is enrolled in the class with materieId.
 3. Inside the "StudentController" class add a POST method for the "/student" endpoint with the following request body:
     {
         "nume": "Cristi",
