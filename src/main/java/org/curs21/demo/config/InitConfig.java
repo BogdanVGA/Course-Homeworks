@@ -21,7 +21,7 @@ public class InitConfig {
         HttpURLConnection connection = (HttpURLConnection) urlObj.openConnection();
         connection.setRequestMethod("GET");
         connection.setRequestProperty("Accept", "application/json");
-        connection.setRequestProperty("Authorization", "db2ffd57-2713-46c6-a443-0aeb5bbd4bcb");
+        connection.setRequestProperty("Authorization", "<INSERT OWN KEY>");
 
         System.out.println("Connection URL: " + connection.getURL());
         int test = connection.getResponseCode();

@@ -78,7 +78,7 @@ public class TeamController {
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(ValidationError.class)
-    public Map<String, String> handleValidationsExceptions(ValidationError error) {
+    public Map<String, String> handleValidationExceptions(ValidationError error) {
         Map<String, String> errors = new HashMap<>();
 
         errors.put("Validation Error", error.getMessage());
