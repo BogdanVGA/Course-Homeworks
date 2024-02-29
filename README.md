@@ -1,5 +1,20 @@
 # Course-Homeworks
 Devmind full-stack course homeworks
+*****************
+C21 HOMEWORK
+*****************
+1. the app creates an H2 in memory database
+2. sets ups the database schema of tables
+3. sets up a connection with the "Ball don't lie" API and retrieves data about NBA players
+4. maps that data from JSON objects to JAVA objects via the Jackson Object Mapper
+5. using these JAVA objects sets up Hibernate entities - Team.java and Player.java
+6. maps entities to corresponding tables and saves the data into the in memory database
+7. sets up the repository, service and controller layers
+8. sets up endpoints to implement GET, POST, PUT and DELETE methods
+9. implements validation for entered data
+10. implements some custom handlers for validation exceptions
+
+Notes: 1. Further info about accessing the API: https://www.balldontlie.io/#players
 
 *****************
 C20 HOMEWORK
