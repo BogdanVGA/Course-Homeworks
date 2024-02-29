@@ -1,0 +1,10 @@
+{
+	"firstName": "Stephen",
+	"lastName": "Curry",
+	"position": "G",
+	"height": "6-2",
+	"weight": "185",
+	"jerseyNumber": "30",
+	"college": "Davidson",
+	"country": "USA"
+}

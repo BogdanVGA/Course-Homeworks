@@ -1,0 +1,8 @@
+{
+    "conference": "West",
+    "division": "Pacific",
+    "city": "Golden State",
+    "name": "Warriors",
+    "fullName": "Golden State Warriors",
+    "abbreviation": "GSW"
+}
