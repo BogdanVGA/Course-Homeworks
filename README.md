@@ -1,6 +1,35 @@
 # Course-Homeworks
 Devmind full-stack course homeworks
 *****************
+C27 HOMEWORK
+****************
+1. implement the code snippets presented in this course
+2. create a new component called 'Bio' that displays the following information: date of birth, a short description, hobbies.
+3. add the Bio component inside the Badge component and pass it all the necessary details via props. The Badge component will, in turn, receive these details from the parent component, via props.
+4. the app should display the following information from the 'Bio' component:
+         Programmer: TRUE - if the hobby list contains the words 'Java' or 'React'
+         Programmer: FALSE - if the list of hobbies does not contain the words Java or React
+         Hint: Array.prototype.includes()
+5. modify the Badge component so that it is of type Class Component and access the fields you need from the props object to populate the badge.
+   
+*****************
+C26 HOMEWORK
+*****************
+1. edit the code in the App.js and App.css files and observe the changes in the browser window.
+2. edit message Edit <code>src/App.js</code> and save to reload. in Welcome! This is my first React app!
+3. change the React logo present within the page to the Devmind logo or any image of your choice.
+4. change the link that the Learn React text points to so that when the user clicks on the hyperlink, it is redirected to the Devmind page.
+
+*****************
+C24 HOMEWORK
+*****************
+1. implement by yourself all the code snippets presented in this course.
+2. add a new possible role for app users: STAFF.
+3. add a new route to: POST /api/courses. Through this route a new subject will be able to be added and assigned to an existing teacher. Access to this endpoint will only be allowed to ADMIN or STAFF users.
+4. add a new route to: POST /api/students/join. Through this route, an existing student will be able to enroll in an existing subject. Access to this endpoint will only be allowed to USER users.
+5. add a new route to: GET /api/students/courses. Through this route, a student will be able to see all the courses to which he is enrolled. Access to this endpoint will only be allowed to USER users.
+
+*****************
 C21 HOMEWORK
 *****************
 1. the app creates an H2 in memory database
